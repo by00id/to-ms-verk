@@ -1,0 +1,68 @@
+
+body {
+    background: #463f3a;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Georgia';
+}
+
+
+
+.card{
+    background: #e0afa0;
+    border-radius: 4px;
+    height : 195vh;
+    width : 80vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.20), 0 3px 6px rgba(0, 0, 0, 0.20);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    overflow: hidden;
+}
+
+./@media only screen and (min-width: 1000 px) {
+    .card {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .card img.photo3 {
+        max-height: unset;
+        width: 100%;
+        max-width: 50vw;
+    }
+}
+
+.text {
+    padding: 1 em;
+    color: #463f3a;
+}
+
+img.photo3 {
+    max-height: 40vh;
+
+}
+
+img.aa {
+    max-height: 40vh;
+}
+
+img.bb {
+    max-height: 40vh;
+}
+
+.muted {
+    opacity : 0.8;
+}
+
+.space {
+    height: 100px;
+}
+
+* {
+    transition: all 0.2s ease-in-out;
+}
